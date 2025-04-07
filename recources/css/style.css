@@ -1,0 +1,56 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+}
+header h1{
+    font-weight: normal;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+.download {
+    display: flex;
+    justify-content: center;
+}
+.download a{
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+.travel-guide h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    font-size: 42px;
+    text-align: center;
+}
+.travel-guide h4{
+    font-weight: normal;
+    font-size: 21px;
+    color: gray;
+    text-align: center;
+}
+.camp{
+    justify-content: center;
+    margin: 40px;
+}
+.camp img{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.phone{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    text-align: right;
+    color: gray;
+    font-size: 21px;
+}
